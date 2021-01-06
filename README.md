@@ -1,5 +1,5 @@
 # Dank-Memer-Grinder
-<h6> <i> v1.0.1 </i> </h6>
+<h6> <i> v1.0.3 </i> </h6>
 
 ### <h2 align="center"> <i> <b> A Python script which auto types commands to get ez money </b> </i> </h2>
 
@@ -43,7 +43,7 @@ It is recommended to have at least 5 of each in case one breaks.
 
 ## Acknowledgments
 * **Swayx113** gave me the idea to make this script so make sure to show him some love - [Github Profile](https://github.com/Swayx113).
-* Current version (1.0.1) is only compatible with the [December 17th 2020 Update](https://discord.com/channels/470337009886429194/599044275291947016/788988188370796545) 
+* Current version (1.0.3) is only compatible with the [December 17th 2020 Update](https://discord.com/channels/470337009886429194/599044275291947016/788988188370796545) 
 ## To-Do List
 - [ ] Add Comments
 - [ ] Make a GUI
