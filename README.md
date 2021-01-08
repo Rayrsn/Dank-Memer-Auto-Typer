@@ -43,7 +43,7 @@ It is recommended to have at least 5 of each in case one breaks.
 
 ## Acknowledgments
 * **Swayx113** gave me the idea to make this script so make sure to show him some love - [Github Profile](https://github.com/Swayx113).
-* Current version (1.0.3) is only compatible with the [December 17th 2020 Update](https://discord.com/channels/470337009886429194/599044275291947016/788988188370796545) 
+* Current version (1.0.3) is only compatible with the [January 1st 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/794354960341925918) 
 ## To-Do List
 - [ ] Add Comments
 - [ ] Make a GUI
