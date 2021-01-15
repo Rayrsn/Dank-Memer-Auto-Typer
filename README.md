@@ -46,6 +46,4 @@ It is recommended to have at least 5 of each in case one breaks.
 * Current version (1.0.3) is compatible with the [January 1st 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/794354960341925918) 
 ## To-Do List
 - [ ] Add Comments
-- [ ] Make a GUI
-- [ ] Make an executable `.exe`
 - [ ] Fix the Linux bug
