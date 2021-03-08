@@ -34,6 +34,7 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 * Hunting Rifle
 * Fishing Pole
 * Laptop
+* Multiple Horseshoes (Optional)
 
 It is recommended to have at least 5 of each in case one breaks.
 
@@ -43,7 +44,7 @@ It is recommended to have at least 5 of each in case one breaks.
 
 ## Acknowledgments
 * **Swayx113** gave me the idea to make this script so make sure to show him some love - [Github Profile](https://github.com/Swayx113).
-* Current version (1.0.4) is compatible with the [February 13th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/810211959466754119) 
+* Current version (1.0.5) is compatible with the [March 6th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/817772082703499274) 
 ## To-Do List
 - [x] Add Comments
 - [ ] Fix the Linux bug
