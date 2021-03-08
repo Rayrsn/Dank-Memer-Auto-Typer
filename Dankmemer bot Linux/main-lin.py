@@ -1,5 +1,4 @@
 """
-Made By Rayr
       ___           ___           ___           ___     
      /\  \         /\  \         |\__\         /\  \    
     /::\  \       /::\  \        |:|  |       /::\  \   
@@ -12,6 +11,8 @@ Made By Rayr
     |:|  |         /:/  /                     |:|  |    
      \|__|         \/__/                       \|__|    
 """
+
+
 # Don't change these
 import pynput
 import random
@@ -31,7 +32,7 @@ from pynput.keyboard import Key, Controller
 # Random strings
 memetypes = ["f" , "r" , "i" , "c", "k"]
 searchtypes = ["sink" , "air" , "tree" , "glovebox" , "bed" , "sewer" , "attic" , "dumpster" , "discord" , "mailbox"]
-randcmd = ["pls profile" , "pls inv 1" , "pls inv 2" , "pls inv 3" , "pls inv 4" , "pls shop 1" , "pls shop 2" , "pls shop 3" , "pls shop 4" , "pls rich" , "pls ping"]
+randcmd = ["pls profile" , "pls inv 1" , "pls inv 2" , "pls inv 3" , "pls shop 1" , "pls shop 2" , "pls shop 3" , "pls shop 4" , "pls rich" , "pls ping" , "pls multi" , "pls prestige" , "pls pet" , "pls pet feed" , "pls pet wash"]
 randtime = ["31" , "32" , "33" , "34" , "35" , "36"] # This is useless
 randnum = ["1" , "2" , "3" , "4" , "5" , "6" , "7" , "8", "9", "10"]
 trivtypes = ["a", "b", "c", "d"]
@@ -53,7 +54,7 @@ def pm():
     keyboard.type('pls pm')
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(random.randint(1, 2))
+    time.sleep(random.randint(2, 3))
     keyboard.type(random.choice(memetypes))
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
@@ -99,13 +100,37 @@ def rand2():
     keyboard.release(Key.enter)
     time.sleep(random.randint(5, 7))
 
+def rand3():
+    print('Executing "rand"')
+    keyboard = Controller()
+    keyboard.type(random.choice(randcmd))
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
+    time.sleep(random.randint(5, 7))
+
+def rand4():
+    print('Executing "rand"')
+    keyboard = Controller()
+    keyboard.type(random.choice(randcmd))
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
+    time.sleep(random.randint(5, 7))
+
+def rand5():
+    print('Executing "rand"')
+    keyboard = Controller()
+    keyboard.type(random.choice(randcmd))
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
+    time.sleep(random.randint(5, 7))
+
 def guess():
     print('Executing "pls guess"')
     keyboard = Controller()
     keyboard.type('pls guess')
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(random.randint(1, 2))
+    time.sleep(random.randint(2, 3))
     keyboard.type(random.choice(randnum))
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
@@ -129,7 +154,7 @@ def triv():
     keyboard.type('pls triv')
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(random.randint(1, 2))
+    time.sleep(random.randint(2, 3))
     keyboard.type(random.choice(trivtypes))
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
@@ -173,7 +198,7 @@ def hl():
     keyboard.type('pls hl')
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    time.sleep(random.randint(1, 2))
+    time.sleep(random.randint(2, 3))
     keyboard.type(random.choice(highlowtypes))
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
@@ -207,7 +232,7 @@ if x == u:
 
 # Here is where the magic happens (im not gonna explain this)
 def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
-    functions = [pm, hunt, fish, beg, rand1, rand2, triv, meme1, meme2, meme3, hl] # Note TO SELF: REMOVED MEMES CUS POINTLESS
+    functions = [pm, hunt, fish, beg, rand1, rand2, rand3, rand4, rand5, triv, hl] # Note TO SELF: REMOVED MEMES CUS POINTLESS
     random.shuffle(functions)
     os.system('clear')
     global x
@@ -234,8 +259,8 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
         time.sleep(5)
         exit()
     dep()
-    print('Waiting... 11-16 seconds')
-    time.sleep(random.randint(11, 16))
+    print('Waiting... 12-18 seconds')
+    time.sleep(random.randint(12, 18))
 
 while p < 1:
     if x == u:
