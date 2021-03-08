@@ -225,7 +225,7 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
         time.sleep(5)
         exit()
     dep()
-    print('Waiting... 3-9 seconds')
+    print('Waiting... 12-18 seconds')
     time.sleep(random.randint(12, 18))
 
 while p < 1:
