@@ -36,10 +36,9 @@ highlowtypes = ["low", "high"] # I removed the jackpot string cus it was pointle
 
 # Essentials
 colorama.init()
-y = 0
 os.system('cls')
-print('Type the name of the window')
-u = input()
+print('Type the name of the window: ')
+WindowName = input()
 # /////////////////////
 
 # Here i defined every command
@@ -183,19 +182,19 @@ from win32gui import GetWindowText, GetForegroundWindow
 print('Waiting... 5 seconds ', end='')
 print(termcolor.colored('Please click on Discord', 'green',))
 time.sleep(5)
-x = (GetWindowText(GetForegroundWindow()))
+ActiveWindowName = (GetWindowText(GetForegroundWindow()))
 os.system('cls')
 
 p = 0
 
 # Verifying the active window
-if x == u:
-    print(termcolor.colored('Active Window: ', 'green') + x)
+if ActiveWindowName == WindowName:
+    print(termcolor.colored('Active Window: ', 'green') + ActiveWindowName)
 else:
-    print(termcolor.colored('Active Window: ', 'white', 'on_red') + x)
+    print(termcolor.colored('Active Window: ', 'white', 'on_red') + ActiveWindowName)
     p = 2
 
-if x == u:
+if ActiveWindowName == WindowName:
     print(termcolor.colored('Focused on Discord', 'green'))
 # /////////////////////
 
@@ -205,21 +204,21 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
     functions = [pm, hunt, fish, beg, rand1, rand2, rand3, rand4, rand5, triv, hl] # Note TO SELF: REMOVED MEMES CUS POINTLESS
     random.shuffle(functions)
     os.system('cls')
-    global x
-    if x == u:
-        print(termcolor.colored('Active Window: ', 'green') + x)
+    global ActiveWindowName
+    if ActiveWindowName == WindowName:
+        print(termcolor.colored('Active Window: ', 'green') + ActiveWindowName)
         print(termcolor.colored('Focused on Discord', 'green'))
 
     for functions in functions:
-        x = (GetWindowText(GetForegroundWindow()))
-        if x != u:
+        ActiveWindowName = (GetWindowText(GetForegroundWindow()))
+        if ActiveWindowName != WindowName:
             os.system('cls')
             print(termcolor.colored('Lost focus of Discord, exiting the script...', 'white', 'on_red'))
             time.sleep(5)
             exit()
         functions()
-    x = (GetWindowText(GetForegroundWindow()))
-    if x != u:
+    ActiveWindowName = (GetWindowText(GetForegroundWindow()))
+    if ActiveWindowName != WindowName:
         os.system('cls')
         print(termcolor.colored('Lost focus of Discord, exiting the script...', 'white', 'on_red'))
         time.sleep(5)
@@ -229,7 +228,7 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
     time.sleep(random.randint(12, 18))
 
 while p < 1:
-    if x == u:
+    if ActiveWindowName == WindowName:
         theloop()
         
 else:
