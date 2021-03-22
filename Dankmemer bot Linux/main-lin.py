@@ -41,10 +41,9 @@ highlowtypes = ["low", "high"] # I removed the jackpot string cus it was pointle
 
 # Essentials
 colorama.init()
-y = 0
 os.system('clear')
 print('Type the name of the window')
-u = input()
+WindowName = input()
 # /////////////////////
 
 # Here i defined every command
@@ -213,19 +212,19 @@ print(termcolor.colored('Please click on Discord', 'green',))
 time.sleep(5)
 scr = Wnck.Screen.get_default()
 scr.force_update()
-x = scr.get_active_window().get_name()
+ActiveWindowName = scr.get_active_window().get_name()
 os.system('clear')
 
 p = 0
 
 # Verifying the active window
-if x == u:
-    print(termcolor.colored('Active Window: ', 'green') + x)
+if ActiveWindowName == WindowName:
+    print(termcolor.colored('Active Window: ', 'green') + ActiveWindowName)
 else:
-    print(termcolor.colored('Active Window: ', 'white', 'on_red') + x)
+    print(termcolor.colored('Active Window: ', 'white', 'on_red') + ActiveWindowName)
     p = 2
 
-if x == u:
+if ActiveWindowName == WindowName:
     print(termcolor.colored('Focused on Discord', 'green'))
 # /////////////////////
 
@@ -235,16 +234,16 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
     functions = [pm, hunt, fish, beg, rand1, rand2, rand3, rand4, rand5, triv, hl] # Note TO SELF: REMOVED MEMES CUS POINTLESS
     random.shuffle(functions)
     os.system('clear')
-    global x
-    if x == u:
-        print(termcolor.colored('Active Window: ', 'green') + x)
+    global ActiveWindowName
+    if ActiveWindowName == WindowName:
+        print(termcolor.colored('Active Window: ', 'green') + ActiveWindowName)
         print(termcolor.colored('Focused on Discord', 'green'))
 
     for functions in functions:
         scr = Wnck.Screen.get_default()
         scr.force_update()
-        x = scr.get_active_window().get_name()
-        if x != u:
+        ActiveWindowName = scr.get_active_window().get_name()
+        if ActiveWindowName != WindowName:
             os.system('clear')
             print(termcolor.colored('Lost focus of Discord, exiting the script...', 'white', 'on_red'))
             time.sleep(5)
@@ -252,8 +251,8 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
         functions()
     scr = Wnck.Screen.get_default()
     scr.force_update()
-    x = scr.get_active_window().get_name()
-    if x != u:
+    ActiveWindowName = scr.get_active_window().get_name()
+    if ActiveWindowName != WindowName:
         os.system('clear')
         print(termcolor.colored('Lost focus of Discord, exiting the script...', 'white', 'on_red'))
         time.sleep(5)
@@ -263,7 +262,7 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
     time.sleep(random.randint(12, 18))
 
 while p < 1:
-    if x == u:
+    if ActiveWindowName == WindowName:
         theloop()
         
 else:
