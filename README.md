@@ -8,7 +8,7 @@
 <br>
 
 ## Disclaimers
-* Botting a user account is technically against Discord's ToS.
+* Botting a user account is technically against Discord's ToS. (although this is not considered self botting, it's still counted as using macros) 
 * The same thing applies to Dank Memer.
 
 Quoted from [Dank Memer Rules](https://dankmemer.lol/rules):
