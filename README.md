@@ -1,5 +1,5 @@
-# Dank Memer Grinder
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Rayrsn/Dank-Memer-Grinder)
+# Dank Memer Typer
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Rayrsn/Dank-Memer-Typer)
 
 ### <h2 align="center"> <i> <b> A Python script which auto types commands to get ez money </b> </i> </h2>
 
@@ -44,7 +44,7 @@ It is recommended to have at least 5 of each in case one breaks.
 
 ## Acknowledgments
 * **Swayx113** gave me the idea to make this script so make sure to show him some love - [Github Profile](https://github.com/Swayx113).
-* Current version (1.0.5) is compatible with the [March 18th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/821850312209203270) 
+* Current version (1.0.6) is compatible with the [March 18th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/821850312209203270) 
 ## To-Do List
 - [x] Add Comments
 - [ ] Fix the Linux bug
