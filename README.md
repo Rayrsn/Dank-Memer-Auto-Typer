@@ -1,5 +1,5 @@
 # Dank Memer Typer
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Rayrsn/Dank-Memer-Typer)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Rayrsn/Dank-Memer-Auto-Typer)
 
 ### <h2 align="center"> <i> <b> A Python script which auto types dank memer commands to get ez money </b> </i> </h2>
 
