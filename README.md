@@ -44,7 +44,7 @@ It is recommended to have at least 5 of each in case one breaks.
 
 ## Acknowledgments
 * **Swayx113** gave me the idea to make this script so make sure to show him some love - [Github Profile](https://github.com/Swayx113).
-* Current version (1.0.6) is compatible with the [March 18th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/821850312209203270) 
+* Current version (1.0.6) is compatible with the [May 15th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/842860114821382144) 
 ## To-Do List
 - [x] Add Comments
 - [ ] Fix the Linux bug
