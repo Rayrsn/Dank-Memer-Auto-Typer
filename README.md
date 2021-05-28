@@ -48,3 +48,6 @@ It is recommended to have at least 5 of each in case one breaks.
 ## To-Do List
 - [x] Add Comments
 - [ ] Fix the Linux bug
+
+## Questions
+### If yall have any questions or just wanna talk, add me on [Discord](https://rayr.ml/LinkInBio) or use my username Rayr#6709 (this might change so it's better to just use the link)
