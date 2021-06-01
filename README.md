@@ -21,7 +21,7 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 ### I very much doubt that they'll ban any of your accounts, but if they do, it's not my responsibility.
 ## Installing Dependencies 
 1. Make sure you have Python 3 installed.
-2. Run `python pip install -r requirements.txt` or `python3 -m pip install --requirement requirements.txt` if you're on Linux.
+2. Run `python -m pip install -r requirements.txt` or `python3 -m pip install --requirement requirements.txt` if you're on Linux.
 ## Running the script
 1. Open the directory in your preferred terminal.
 2. Open the Discord channel you want to type the commands in.
