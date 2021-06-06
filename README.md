@@ -23,7 +23,7 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 1. Make sure you have Python 3 installed.
 2. Run `python -m pip install -r requirements.txt` or `python3 -m pip install --requirement requirements.txt` if you're on Linux.
 ## Running the script
-1. Open the directory in your preferred terminal.
+1. Open the directory of your operating system in your preferred terminal.
 2. Open the Discord channel you want to type the commands in.
 3. Run `python windowdetector.py` or `python3 windowdetector.py` if you're on Linux.
 4. Copy the window name and paste it in the main script when it asks you to.
