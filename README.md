@@ -25,9 +25,9 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 ## Running the script
 1. Open the directory of your operating system in your preferred terminal.
 2. Open the Discord channel you want to type the commands in.
-3. Run `python windowdetector.py` or `python3 windowdetector.py` if you're on Linux.
+3. Run `python windowdetector.py` or `python3 windowdetector-lin.py` if you're on Linux.
 4. Copy the window name and paste it in the main script when it asks you to.
-5. Run `python main.py` or `python3 main.py` if you're on Linux.
+5. Run `python main.py` or `python3 main-lin.py` if you're on Linux.
 ## Warning
 * There is a bug in the Linux version in which the script doesn't detect window changes and will type the commands in any active window, So be careful.
 ## Required items in account inventory
