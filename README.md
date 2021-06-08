@@ -35,6 +35,7 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 * Hunting Rifle
 * Fishing Pole
 * Laptop
+* Shovel
 * Multiple Horseshoes (Optional)
 
 It is recommended to have at least 5 of each in case one breaks.
