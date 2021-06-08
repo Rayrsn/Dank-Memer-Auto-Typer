@@ -202,6 +202,13 @@ def hl():
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
     time.sleep(random.randint(2, 3))
+
+def dig():
+    print('Executing "pls dig"')
+    keyboard = Controller()
+    keyboard.type('pls dig')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(5, 6))
 # /////////////////////////
 
 import time
@@ -231,7 +238,7 @@ if ActiveWindowName == WindowName:
 
 # Here is where the magic happens (im not gonna explain this)
 def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
-    functions = [pm, hunt, fish, beg, rand1, rand2, rand3, rand4, rand5, triv, hl] # Note TO SELF: REMOVED MEMES CUS POINTLESS
+    functions = [pm, hunt, fish, beg, rand1, rand2, rand3, rand4, rand5, triv, hl, dig] # Note TO SELF: REMOVED MEMES CUS POINTLESS
     random.shuffle(functions)
     os.system('clear')
     global ActiveWindowName
@@ -258,8 +265,8 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
         time.sleep(5)
         exit()
     dep()
-    print('Waiting... 12-18 seconds')
-    time.sleep(random.randint(12, 18))
+    print('Waiting... 7-13 seconds')
+    time.sleep(random.randint(7, 13))
 
 while p < 1:
     if ActiveWindowName == WindowName:
