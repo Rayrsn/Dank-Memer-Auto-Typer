@@ -21,7 +21,7 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 ### I very much doubt that they'll ban any of your accounts, but if they do, it's not my responsibility.
 ## Installing Dependencies 
 1. Make sure you have Python 3 installed.
-2. Run `python -m pip install -r requirements.txt` or `python3 -m pip install --requirement requirements.txt` if you're on Linux.
+2. Run `python -m pip install -r requirements.txt` or `python3 -m pip install --requirement requirements-lin.txt` if you're on Linux.
 * There's another step for Linux users, run `sudo apt install gir1.2-wnck-3.0 gobject PyGObject`.
 ## Running the script
 1. Open the directory of your operating system in your preferred terminal.
