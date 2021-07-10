@@ -1,3 +1,4 @@
+
 # Dank Memer Typer
 <p align=center><img src="https://img.shields.io/github/v/release/Rayrsn/Dank-Memer-Auto-Typer?style=for-the-badge&color=8829d6"></img></p>
 
@@ -22,7 +23,12 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 ## Installing Dependencies 
 1. Make sure you have Python 3 installed.
 2. Run `python -m pip install -r requirements.txt` or `python3 -m pip install --requirement requirements-lin.txt` if you're on Linux.
-* There's another step for Linux users (Debian Based), run `sudo apt install gir1.2-wnck-3.0 gobject PyGObject`.
+
+<hr>
+
+***NEXT STEP IS ONLY FOR LINUX USERS***
+* For Debian based distros, run `sudo apt install gir1.2-wnck-3.0 gobject PyGObject`.
+* For Arch based distros, run `sudo pacman -S libwnck3`
 ## Running the script
 1. Open the directory of the script in your preferred terminal.
 2. Open the Discord channel you want to type the commands in.
