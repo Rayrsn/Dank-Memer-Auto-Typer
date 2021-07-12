@@ -24,6 +24,7 @@ import colorama
 import gi
 gi.require_version("Wnck", "3.0")
 from gi.repository import Wnck
+from gi.repository import Gtk
 
 from pynput import keyboard
 from pynput.keyboard import Key, Controller
@@ -217,9 +218,11 @@ import termcolor
 print('Waiting... 5 seconds ', end='')
 print(termcolor.colored('Please click on Discord', 'green',))
 time.sleep(5)
-scr = Wnck.Screen.get_default()
-scr.force_update()
-ActiveWindowName = scr.get_active_window().get_name()
+screen = Wnck.Screen.get_default()
+screen.force_update()
+while Gtk.events_pending():
+    Gtk.main_iteration()
+ActiveWindowName = screen.get_active_window().get_name()
 os.system('clear')
 
 p = 0
@@ -247,18 +250,22 @@ def theloop(): # ENTER THE FUNCTION NAMES HERE (AFTER DEFINING THEM OF COURSE)
         print(termcolor.colored('Focused on Discord', 'green'))
 
     for functions in functions:
-        scr = Wnck.Screen.get_default()
-        scr.force_update()
-        ActiveWindowName = scr.get_active_window().get_name()
+        screen = Wnck.Screen.get_default()
+        screen.force_update()
+        while Gtk.events_pending():
+            Gtk.main_iteration()
+        ActiveWindowName = screen.get_active_window().get_name()
         if ActiveWindowName != WindowName:
             os.system('clear')
             print(termcolor.colored('Lost focus of Discord, exiting the script...', 'white', 'on_red'))
             time.sleep(5)
             exit()
         functions()
-    scr = Wnck.Screen.get_default()
-    scr.force_update()
-    ActiveWindowName = scr.get_active_window().get_name()
+    screen = Wnck.Screen.get_default()
+    screen.force_update()
+    while Gtk.events_pending():
+        Gtk.main_iteration()
+    ActiveWindowName = screen.get_active_window().get_name()
     if ActiveWindowName != WindowName:
         os.system('clear')
         print(termcolor.colored('Lost focus of Discord, exiting the script...', 'white', 'on_red'))
