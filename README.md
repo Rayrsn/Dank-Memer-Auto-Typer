@@ -27,7 +27,7 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 <hr>
 
 ***NEXT STEP IS ONLY FOR LINUX USERS***
-* For Debian based distros, run `sudo apt install gir1.2-wnck-3.0 gobject PyGObject`.
+* For Debian based distros, run `sudo apt install gir1.2-wnck-3.0`.
 * For Arch based distros, run `sudo pacman -S libwnck3`
 ## Running the script
 1. Open the directory of the script in your preferred terminal.
