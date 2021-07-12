@@ -36,7 +36,10 @@ On top of this, massive amounts of spam is not allowed and will be punished with
 4. Copy the window name and paste it in the main script when it asks you to.
 5. Run `python main.py` or `python3 main-lin.py` if you're on Linux.
 ## Warning
-* There is a bug in the Linux version in which the script doesn't detect window changes and will type the commands in any active window, So be careful.
+* ~~There is a bug in the Linux version in which the script doesn't detect window changes and will type the commands in any active window, So be careful.~~
+
+<h4><ins>The mentioned bug is fixed</ins></h4>
+
 ## Required items in account inventory
 * Hunting Rifle
 * Fishing Pole
