@@ -1,9 +1,15 @@
 
 # Dank Memer Typer
+
+
+### <h1 align="center"> <i> <b> DISCONTINUED</b> </i> </h1>
+### <h2 align="center"> <i> <b>Because half of the commands aren't compatible with the button update.</b> </i> </h2>
+### <h4 align="center"> <i> <b>Commands with single interactions still work, like "pls beg" or "pls dig". If Dank adds any single interaction commands in the future I'll try my best to remember to update this script but until then I can't do anything about it.</b> </i> </h4>
+
+<br>
 <p align=center><img src="https://img.shields.io/github/v/release/Rayrsn/Dank-Memer-Auto-Typer?style=for-the-badge&color=8829d6"></img></p>
 
-### <h2 align="center"> <i> <b> A Python script which auto types dank memer commands to get ez money </b> </i> </h2>
-### <h4 align="center"> <i> <b> Some commands aren't compatible with the latest update </b> </i> </h2>
+### <h3 align="center"> <i> <b> A Python script which auto types dank memer commands to get ez money </b> </i> </h3>
 
 <br>
 <hr>
@@ -59,7 +65,7 @@ It is recommended to have at least 5 of each in case one breaks.
 * Current version (1.0.9) is compatible with the latest major update ([May 15th 2021 Update](https://discord.com/channels/470337009886429194/599044275291947016/842860114821382144))
 ## To-Do List
 - [x] Add Comments
-- [ ] Fix the Linux bug
+- [X] Fix the Linux bug
 
 ## Questions
 ### If yall have any questions or just wanna talk, add me on [Discord](https://rayr.ml/LinkInBio) or use my username Rayr#6709 (this might change so it's better to just use the link)
