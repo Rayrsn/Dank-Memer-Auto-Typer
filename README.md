@@ -1,6 +1,6 @@
 
 # Dank Memer Typer
-
+<h2 align="center"> <i> <b> Windows and Linux only</b> </i> </h2>
 
 ### <h1 align="center"> <i> <b> DISCONTINUED</b> </i> </h1>
 ### <h2 align="center"> <i> <b>Because half of the commands aren't compatible with the button update.</b> </i> </h2>
